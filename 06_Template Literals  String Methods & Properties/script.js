@@ -1,0 +1,10 @@
+const message = 'Hello World!'
+const faltuMessage = '  hy my name is ritik   '
+const finalMessageUppercase = faltuMessage.trim().toUpperCase()
+const finalMessage = faltuMessage.trim()
+const lastFourDigits = '7856'
+const bankBalance = 9855    
+const maskedAccountNumber = lastFourDigits.padStart(16,'*')
+const concatinetedString = `Last four digit of my account number is` .concat(' ', lastFourDigits)
+const tamplateString = `my account number is ${lastFourDigits.padStart(16,'*')}` 
+const tamplateString2 = `My total amount is ₹${bankBalance}.`

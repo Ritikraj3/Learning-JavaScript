@@ -1,24 +1,23 @@
 debugger
 
+sayHi()
 
-sayhi()
-
-
-const username = "Ritik"
+const username = 'Anurag'
 const userAge = 25
 
-
-function sayhi() {
+function sayHi() {
     const a = 14
     const b = 12
-    addTwoNumber(7 , 9)
+    add(7, 9)
 }
 
-function addTwoNumber(x, y) {
+function add(x, y) {
+    kuchhBhi()
     return x + y
 }
 
+function kuchhBhi() {
+    console.log('Kuchh bhi');
+}
+
 console.log('Program Ended');
-
-
-// let userIntro = 'Hi, my name is ' + firstName + ' ' + lastName 

@@ -4,19 +4,21 @@ debugger
 sayhi()
 
 
-var username = "Ritik"
-var userAge = 25
+const username = "Ritik"
+const userAge = 25
 
 
 function sayhi() {
-
     const a = 14
     const b = 12
+    addTwoNumber(7 , 9)
+}
 
-    console.log(a , b);
+function addTwoNumber(x, y) {
+    return x + y
 }
 
 console.log('Program Ended');
 
 
-// let userIntro = 'Hi, my name is ' + firstName + ' ' + lastName
+// let userIntro = 'Hi, my name is ' + firstName + ' ' + lastName 

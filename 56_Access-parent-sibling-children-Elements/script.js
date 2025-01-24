@@ -29,4 +29,6 @@ for (const Anc of allAnc) {
     Anc.classList.remove('my-link')
     Anc.classList.toggle('wavy-link')
 
+    
+
 }

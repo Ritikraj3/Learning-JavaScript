@@ -27,3 +27,13 @@ a(function () {
   })
 
   // anonymous function to call a
+debugger
+function greet(name, callback) {
+  return callback(`Hello, ${name}!`);
+}
+
+function toUpperCase(str) {
+  return str.toUpperCase();
+}
+
+console.log(greet("John", toUpperCase));

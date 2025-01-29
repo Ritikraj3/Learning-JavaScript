@@ -41,6 +41,6 @@ const form = document.querySelector('form')
 
 form.addEventListener('click', (e) => {
     e.preventDefault()
-    console.log(e.target);
-    console.log('Form clicked');
+    console.log(e.currentTarget);
+    // console.log('Form clicked');
 })

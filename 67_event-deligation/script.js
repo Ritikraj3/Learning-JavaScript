@@ -9,3 +9,8 @@ addCardBtn.addEventListener('click', () => {
     newCard.innerText = count++
     container.append(newCard)
 })
+
+container.addEventListener('click', (e) => {
+    if(e.target !== container)
+        e.target.remove()
+})

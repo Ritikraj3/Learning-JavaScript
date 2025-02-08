@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/bons-foot-prints-pattern-background_1374-18.jpg?t=st=1739017177~exp=1739020777~hmac=1adf8f2a3f5e1523059f79f365976f785802675c12e0e02444dc3a477b071715&w=740);
+}
+
+.dog-button {
+    background-color: #ffcc66; /* Warm golden color like a retriever */
+    color: #5a3e1b; /* Brown text, like a dog's fur */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun and playful font */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 48px;
+    border: 3px solid #8b5a2b; /* Dark brown border */
+    border-radius: 50px; /* Rounded for a friendly look */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .dog-button:hover {
+    background-color: #ffb347; /* Slightly darker golden color */
+    color: #ffffff;
+    border-color: #754c24;
+  }
+  
+  .dog-button::before {
+    content: "🐶"; /* Dog emoji */
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .dog-button:active {
+    transform: scale(0.95);
+  }
+  
